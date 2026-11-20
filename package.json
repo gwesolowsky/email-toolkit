@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.152",
+    "@nuxt/ui": "^4.12.0",
+    "@types/papaparse": "^5.5.2",
+    "@vueuse/core": "^14.4.0",
+    "@vueuse/nuxt": "^14.4.0",
+    "nuxt": "^4.6.4",
+    "tailwindcss": "^4.3.5"
+  },
+  "dependencies": {
+    "acorn": "^8.19.0",
+    "browser-image-compression": "2.0.2",
+    "detergent": "^9.4.13",
+    "diff": "^9.0.0",
+    "ejs": "^3.1.9",
+    "gifsicle-wasm-browser": "1.5.19",
+    "html-to-image": "^1.11.11",
+    "jszip": "^3.10.2",
+    "monaco-editor": "^0.57.0",
+    "nuxt-monaco-editor": "^1.5.0",
+    "papaparse": "^5.7.0",
+    "vue-router": "^4.5.0"
+  },
+  "overrides": {
+    "dompurify": "^3.4.17"
+  },
+  "engines": {
+    "node": ">=26"
+  },
+  "type": "module"
+}

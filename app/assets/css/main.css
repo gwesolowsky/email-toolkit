@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Sky Text";
+  src: local("Sky Text"), url("https://static.skyassets.com/fonts/sky-regular.woff2") format("woff2");
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Sky Text Medium";
+  src: local("Sky Text Medium"), url("https://static.skyassets.com/fonts/sky-medium.woff2") format("woff2");
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Sky Text Headline";
+  src: local("Sky Text Headline"), url("https://static.skyassets.com/fonts/sky-headline.woff2") format("woff2");
+  font-display: fallback;
+}
+@theme {
+  --font-sky: 'Sky Text', Arial;
+  --font-sky-med: 'Sky Text Medium', Arial;
+  --font-sky-headline: 'Sky Text Headline', Arial;
+  --font-arial: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: var(--font-sky-headline);
+}
+
+b {
+  font-family: var(--font-sky-med);
+}
